@@ -1,3 +1,4 @@
+
 public class TestArgs{
 	public static void main(String[] args)throws ArrayIndexOutOfBoundsException{
 		System.out.println("This is default caclu");
@@ -67,7 +68,7 @@ public class TestArgs{
 	// sort
 	private static void sortIntArray(int [] args){
 		int temp =0;
-		for(int i=0;i<args.length;i++){
+		for(int i=0;i<args.length-1;i++){
 			// note: "j" value should be big than "i"
 			for(int j=i+1;j<args.length;j++){
 				if(args[i]>args[j]){
