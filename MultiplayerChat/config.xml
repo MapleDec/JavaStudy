@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- 聊天室服務端IP地址 -->
+	<serverhost>192.168.0.96</serverhost>
+	<!-- 聊天室服務端端口號 -->
+	<serverport>8088</serverport>
+</config>
