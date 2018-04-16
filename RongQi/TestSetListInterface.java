@@ -43,6 +43,7 @@ public class TestSetListInterface{
 		System.out.println("get 2nd element is: "+(String)se1.get(2));
 		System.out.println("get a5 place is: "+se1.indexOf("a5"));
 		
+		// Collections class usage
 		Collections.shuffle(se1);
 		System.out.println("Random sort is: "+se1);
 		Collections.reverse(se1);
