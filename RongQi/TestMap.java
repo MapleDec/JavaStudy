@@ -53,6 +53,8 @@ public class TestMap{
 
 		// usage:Generic/fun object
 		List<String> s = new ArrayList<String>();
+		s.add("11");
+		s.add("22");
 		s.add("33");
 		s.add("44");
 		for(int i = 0; i<s.size();i++){
