@@ -7,6 +7,7 @@ public class TestMap{
 	public static final int ONE = 1;
 	public static void main(String[] args){
 		Map m1 = new HashMap();
+		// Map<String, Integer> m1 = new HashMap<String,Integer>();
 		Map m2 = new TreeMap();
 		/* == 
 		m1.put("One",new Integer(1));
@@ -50,5 +51,22 @@ public class TestMap{
 		System.out.println("distinct word detected: "+ m.size());
 		System.out.println(m);
 
+		// usage:Generic/fun object
+		List<String> s = new ArrayList<String>();
+		s.add("33");
+		s.add("44");
+		for(int i = 0; i<s.size();i++){
+			String ss= s.get(i);
+			System.out.println(ss);			
+		}
+		
+		Collection<String> t = new HashSet<String>();
+		t.add("aa");
+		t.add("bb");
+		t.add("cc");
+		for(Iterator<String> it = t.iterator();it.hasNext();){
+			String tt = it.next();
+			System.out.println(tt);
+		}
 	}
 }
